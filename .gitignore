@@ -1,0 +1,4 @@
+.configuration
+build.log
+node_modules
+yarn-error.log

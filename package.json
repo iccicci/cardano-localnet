@@ -1,0 +1,49 @@
+{
+  "author": "Daniele Ricci <daniele.ricci@iohk.io> (https://github.com/iccicci)",
+  "bugs": "https://github.com/iccicci/cardano-localnet/issues",
+  "configuration": {
+    "cardano_node": "1.35.5",
+    "http_port": 23000,
+    "node_js": "20.10.0"
+  },
+  "contributors": [
+    "Daniele Ricci <daniele.ricci@iohk.io> (https://github.com/iccicci)"
+  ],
+  "dependencies": {
+    "@types/node": "20.11.20",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
+  },
+  "description": "Cardano local testnet",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "7.1.0",
+    "@typescript-eslint/parser": "7.1.0",
+    "eslint": "8.57.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-simple-import-sort": "12.0.0",
+    "eslint-plugin-sort-keys": "2.3.5",
+    "prettier": "3.2.5"
+  },
+  "homepage": "https://github.com/iccicci/cardano-localnet#readme",
+  "keywords": [
+    "cardano",
+    "testnet"
+  ],
+  "license": "Apache-2.0",
+  "name": "cardano-localnet",
+  "prettier": {
+    "arrowParens": "avoid",
+    "endOfLine": "lf",
+    "jsxBracketSameLine": true,
+    "printWidth": 150,
+    "trailingComma": "none",
+    "useTabs": false
+  },
+  "readmeFilename": "README.md",
+  "repository": "https://github.com/iccicci/cardano-localnet",
+  "scripts": {
+    "configuration": "ts-node scripts/configuration",
+    "readme": "ts-node scripts/readme"
+  },
+  "version": "0.0.0"
+}

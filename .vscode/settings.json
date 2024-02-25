@@ -1,0 +1,20 @@
+{
+  "cSpell.words": ["avvm", "cardano", "daniele", "linebreak", "localnet", "nonblock", "nonwords", "parens", "ricci"],
+  "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "eslint.debug": true,
+  "eslint.validate": ["javascript", "typescript"],
+  "explorer.confirmDelete": false,
+  "files.autoSave": "off",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "git.ignoreMissingGitWarning": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.validate.enable": true,
+  "window.zoomLevel": 0,
+  "[dockerfile]": { "editor.defaultFormatter": "ms-azuretools.vscode-docker" },
+  "[javascript]": { "editor.formatOnSave": false },
+  "[typescript]": { "editor.formatOnSave": false }
+}
